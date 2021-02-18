@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+        padding-top: 80px;
+    text-align: center;
+}
+#myself {
+    background:linear-gradient( #90CAF9 0%,#1A237E 100%); 
+    width:120%;
+    height: 300px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+#about {
+    padding: 50px;
+    background-color: yellow;
+    padding-bottom: 50px; 
+    height:200px;
+    width:111%;
+}
+#i1{
+    font-family: courier;
+    color:black;
+}
+#i2{
+    font-family: cursive;
+}
+#intro {
+    font-family:arial;
+    color:pink;
+}
+#line {
+    width: 50px;
+    height: 7px;
+    background-color:black;
+}
+li { 
+    display: inline;  
+    font-size: 30px;
+    padding-left: 9px; 
+    padding-right: 9px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+.menu { 
+    list-style: none; 
+    z-index: 10;
+    margin-top: 0px; 
+    top: 0px;
+    width: 100%; 
+    background-color: white;
+}
+#abt {
+    color:green;
+}
+#abtIntro {
+    color: purple;
+}
